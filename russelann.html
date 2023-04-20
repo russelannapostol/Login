@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apostol, Russel Ann I.</title>
+    <link rel="stylesheet" href="style3.css">
+    <script src="https://kit.fontawesome.com/19db860d87.js" crossorigin="anonymous"></script>
+</head> 
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="" class="logo">
+            <ul id="sidemenu">
+                <li><a href="">Home</a> </li>
+                <li><a href="#about">About</a> </li>
+                <li><a href="#services">Services</a> </li>
+                <li><a href="#portfolio">Portfolio</a> </li>
+                <li><a href="#contact">Contact</a> </li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>BSIT STUDENT</p>
+            <h1>Hi, I'm <span>Russel Ann</span><br> From ESSU Guiuan</h1>
+        </div>
+    </div>
+</div>
+<!-- ----------------about---------------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/russel ann.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About me</h1>
+                <p> I am  Russel Ann Inciso Apostol, living in Brgy. Taguite Lawaan Eastern Samar. I've recently turned 19 in the month of september. I spend most of my time watching movies and sometimes listening to music since it helps me in chilling and relaxing. I am currently taking Bachelor of Science in Information Technology. And someday I really wanna go to Paris to witness the beauty of the famous Eiffel Tower.</p>
+            
+            <div class="tab-titles">
+                 <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                 <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                 <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>Data Lab Series 5: Using OSM and Geospatial Data</li>
+                    <li><span>Webinar on Internet of Things (IoT) and Robotics</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+                <ul>
+                    <li><span>Introduction to Computing</li>
+                    <li><span>Computer Programming 1&2</li>
+                    <li><span>Fundamenatal of Database System</li>
+                    <li><span>Data Structures and Algorithms</li>
+                    <li><span>Discrete Mathematics</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>Lawaan Central Elementary School (2014-2015)</li>
+                    <li><span>Lawaan National School of Craftsmanship and Home Industries (2018-2021)</li>
+                    <li><span>Eastern Samar State University - Guiuan Campus (2021-Present)</li>
+                </ul>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- --------------services------------------ -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>The creation and upkeep of websites require a wide range of talents and disciplines, including web design.
+                    Web graphic design, user interface design, authorship, including standardized code and proprietary software, user experience design, and search engine optimization are some of the several web design disciplines. </p>
+                <a href="#"> Learn more</a>
+            </div>    
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>UI/UX Design</h2>
+                <p>With the goal of maximizing usability and the user experience, user interface design, also known as user interface engineering, is the process of creating user interfaces for hardware and software, including computers, household appliances, mobile devices, and other electronic devices. </p>
+                <a href="#"> Learn more</a>
+            </div>  
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>User experience (UX) and user interface (UI) components make up the continuing process of app design.</p>
+                <a href="#"> Learn more</a>
+            </div>  
+        </div>
+    </div>
+</div>
+<!-- -------------------portfolio---------------------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work 1.jpg">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app conects you to the talented people around the world. Download it from play store.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work 2.jpg">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>The application allowes you to listen to music files stored in phone's iternal or external memory.. Download it from play store.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work 3.jpg">
+                <div class="layer">
+                    <h3>Online Shoping App</h3>
+                    <p>The applications which allows consumers to directly buy goods or services from a seller over the internet. Download it from play store.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- --------------------contact-------------------------- -->
+<section id="contact">
+    <div class="contact container">
+      <div>
+        <h1 class="contact-title">Contact <span>info</span></h1>
+      </div>
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="contact-info">
+            <h1>Phone</h1>
+            <h2>+639510214050</h2>
+            <h2>+639659840799</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-info">
+            <h1>Email</h1>
+            <h2>incisorusselann</h2>
+            <h2>@gmail.com</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-info">
+            <h1>Address</h1>
+            <h2>Brgy. Taguite Lawaan Eastern Samar, Philippines</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+
+</script>
+
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+</script>
+</body>
+</html> 
